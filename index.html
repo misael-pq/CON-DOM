@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ejercicios con DOM</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <h1>MATEMATICAS EJERCICIOS CON DOM</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#ej1">Ejercicio 1</a></li>
+      <li><a href="#ej2">Ejercicio 2</a></li>
+      <li><a href="#ej3">Ejercicio 3</a></li>
+      <li><a href="#ej4">Ejercicio 4</a></li>
+      <li><a href="#ej5">Ejercicio 5</a></li>
+    </ul>
+  </nav>
+
+  <section id="ej1">
+    <h2>Ejercicio 1</h2>
+    <label for="z">Valor de z:</label>
+    <input type="number" id="z" value="4.5" step="0.1">
+    <button onclick="calcularEj1()">Calcular</button>
+    <div id="resultado1"></div>
+  </section>
+
+  <section id="ej2">
+    <h2>Ejercicio 2</h2>
+    <label for="t">Valor de t:</label>
+    <input type="number" id="t" value="3.2" step="0.1">
+    <button onclick="calcularEj2()">Calcular</button>
+    <div id="resultado2"></div>
+  </section>
+
+  <section id="ej3">
+    <h2>Ejercicio 3</h2>
+    <label for="x">Valor de x:</label>
+    <input type="number" id="x" value="6.5" step="0.1">
+    <label for="y">Valor de y:</label>
+    <input type="number" id="y" value="3.8" step="0.1">
+    <button onclick="calcularEj3()">Calcular</button>
+    <div id="resultado3"></div>
+  </section>
+
+  <section id="ej4">
+    <h2>Ejercicio 4</h2>
+    <label for="c">Valor de c:</label>
+    <input type="number" id="c" value="4.6" step="0.1">
+    <label for="d">Valor de d:</label>
+    <input type="number" id="d" value="1.7" step="0.1">
+    <label for="t4">Valor de t:</label>
+    <input type="number" id="t4" value="3.2" step="0.1">
+    <button onclick="calcularEj4()">Calcular</button>
+    <div id="resultado4"></div>
+  </section>
+
+  <section id="ej5">
+    <h2>Ejercicio 5 - Identidades Trigonométricas</h2>
+    <label for="xTrig">Valor de x (en radianes):</label>
+    <input type="number" id="xTrig" value="0.314159" step="0.01">
+    <button onclick="calcularEj5()">Verificar</button>
+    <div id="resultado5"></div>
+  </section>
+
+  <footer>
+    <p>EJERCICIOS CON DOM&copy; 2025</p>
+  </footer>
+
+  <script src="ejercicios.js"></script>
+</body>
+</html>
